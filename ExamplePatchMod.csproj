@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{81d8c460-4627-489b-8d5e-a0640866290f}</ProjectGuid>
+    <ProjectGuid>{81D8C460-4627-489B-8D5E-A0640866290F}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>ExamplePatchMod</RootNamespace>
@@ -57,7 +57,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BepInEx.cs" />
+    <Compile Include="Patches\ExamplePatchClass.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
