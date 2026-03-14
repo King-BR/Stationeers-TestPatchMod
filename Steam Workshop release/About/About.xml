@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf8"?>
+<ModMetadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>ChickensEatHay</Name>
+  <Author>KingBR</Author>
+  <Version>1.0</Version>
+  <Description>Chickens can now eat hay. Why? Yes</Description>
+</ModMetadata>
